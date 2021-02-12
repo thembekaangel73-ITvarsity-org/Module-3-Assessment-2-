@@ -1,0 +1,258 @@
+html {
+    height: 100%; 
+}
+
+body {
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;  
+}
+
+.body-home {
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.body-meals {
+    background-image: url('images/background2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*========== HEADER ==========*/
+
+.header{
+    background-color: white;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: visible;
+    
+    text-align: center;
+    
+}
+
+.header i {
+    float: left;
+    padding-top: 10px;
+    width: 5%;
+    height: 10px;
+    color: red;   
+}
+
+.header img{
+    width: 250px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-text {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 80%;
+}
+
+/*========== MEALS PAGE ==========*/
+
+#meals {
+    padding-top: 50px;
+    
+}
+
+/*===== MEALS PAGE MENU =====*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item {
+    border: 5px solid white;
+    margin: 5px;
+}
+
+.meals-list-item h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.meals-list-item h2 {
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.meals-list-item h3 {
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.meals-list-item i {
+    float: right;
+    color: red;
+    padding: 10px;
+    
+}
+
+.meals-list-item p {
+    font-size: 20px;
+    font-style: italic;
+    color: red;
+    margin-top: -5px;
+    padding-left: 10px;
+}
+
+/*========== RESTAURANT PAGE ==========*/
+
+#restaurant {
+    padding: 50px;
+    
+}
+
+/*===== RESTAURANT DETAIS =====*/
+
+.restaurant-details img {
+    width: 40%;
+}
+
+.restaurant-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+.restaurant-details-info {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.restaurant-details-info p {
+    font-size: 15px;
+    display: inline-block;
+}
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and(min-width: 600px) {
+    #meals {
+        width: 80%;
+        margin: auto;
+    }
+    #restaurant {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and(min-width: 1000px) {
+     #meals {
+        width: 60%;
+        margin: auto;
+    }
+    #restaurant {
+        width: 60%;
+        margin: auto;
+    }
+
+    
+}
+
+@media only screen and(min-width: 1500px) {
+     #meals {
+        width: 40%;
+        margin: auto;
+    }
+    #restaurant {
+        width: 40%;
+        margin: auto;
+    } 
+}
+
+
+@media only screen and(min-width: 720px){
+    .body-home{
+        background-image: url(images/background.jpg);
+    }
+    
+    .body-meals {
+        background-image: url(images/background2.jpg);
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
